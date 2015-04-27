@@ -1,0 +1,80 @@
+html {
+	margin: auto;
+}
+
+.header {
+	background-color: black;
+	width: 1200px;
+	height: 101px; 
+}
+
+.top_nav  {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.top_nav li {
+	margin: 40px;
+	left: 100px;
+	list-style-type: none;
+	display: inline;
+	position: relative;
+	bottom: 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	top: 8px;
+	color: white;
+
+}
+
+li:hover {
+	background-color: #6a6969;
+
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.aboutme-container {
+	height: 900px;
+	width: 1200px;
+
+
+}
+.container > p {
+	height: 900px;
+	width: 1200px;
+	font-size: 36px;
+	color: white;
+	background-image: url(spartan-symbol.png);
+}
+
+.aboutme-container > p > a {
+	color: green;
+}
+
+
+.aboutme-container > p > img {
+	float: left;
+}
+
+.aboutme-container > p > .worldofwarcraft {
+    transition-duration: 1s;
+    width:50%;
+}
+
+.skills-container {
+	height: 1000px;
+	width: 1200px;
+}
+
+.skills-container > p > a {
+	color: red;
+}
